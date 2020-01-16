@@ -1,0 +1,162 @@
+/*
+Div area for top heading
+*/
+#body_header{
+	width:100%;
+  height: 100px;
+  background-color: darkslategray;
+  border-radius: 30px 30px 0px 0px; 
+}
+
+/* student registration form 
+top headung of the page*/
+#header_notice{
+  text-align: center;
+  padding-top: 25px;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+} 
+/* Div area for footer, used of user guideline purpose*/
+#body_footer{
+	width:100%;
+  height: 100px;
+  background-color: darkslategray;
+  border-radius: 0px 0px 30px 30px; 
+}
+/*
+Div for dynamic background color change
+*/
+#color_div{
+  height:100px;
+  width:20%;
+}
+/*
+'*' used for compulsary fields and marked with red color
+*/
+p,sup{
+  color: red;
+}
+
+/*
+footer information/message
+*/
+#footer_notice{
+  color:red;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 36px;
+  font-size:25px;
+  opacity: 0.7;
+}
+#pic{
+  height:150px;
+  border-radius: 20%;
+}
+body{
+  background-color: rgb(64,128,128);
+}
+#form_div{
+	width:100%;
+}
+/*
+display the content of record
+*/
+#record{
+  width: 100%;
+  background-color: gray;
+  border-radius: 20px 20px 20px 20px;
+}
+/*
+form table style
+*/
+table#mytable2{
+  border: solid 1px black;
+  border-spacing: 20px;
+  width: 100%;
+  padding: 5px;
+}
+/*
+input field style
+*/
+input[type=text],select, input[type=textarea], input[type=email], input[type=date]{
+  width: 100%;
+  height: 40px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=color]{
+  width: 10%;
+}
+/*
+button style for update/register
+*/
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+/*
+button for background color change and upload image
+*/
+.button1 {
+  width: 15%;
+  height: 35px;
+  margin-left:10px;
+  padding: 0px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.button2 {
+  width: 90%;
+  height: 35px;
+  margin-left:5px;
+  padding: 0px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.image-upload>input{
+  display:none;
+}
+/*
+heading of content of record 
+*/
+#record_head{
+  text-align:center;
+  margin-top: 50px;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
+table#mytable{
+  width: 100%;
+  align-self: auto;
+  border-collapse: collapse;
+  text-align: left;
+  border: solid black 1px;
+}
+/* label style for erroe msg */
+label{
+  margin-top: 10px;
+  color: red;
+  visibility: hidden;
+  opacity: 0.7;
+}
+#update{
+  visibility: hidden;
+}
+#register{
+  visibility: visible;
+}
